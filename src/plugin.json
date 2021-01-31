@@ -1,0 +1,39 @@
+{
+  "type": "datasource",
+  "name": "grafana-shannonlal-sample-json",
+  "id": "shannonlal-grafana-shannonlal-sample-json",
+  "metrics": true,
+  "info": {
+    "description": "Shannon Lal Sample Plugin",
+    "author": {
+      "name": "Shannon Lal",
+      "url": ""
+    },
+    "keywords": [
+      "Shannon Lal",
+      "JSON",
+      "Sample"
+    ],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/grafana/simple-datasource"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/grafana/simple-datasource/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaVersion": "6.5.x",
+    "plugins": []
+  }
+}
